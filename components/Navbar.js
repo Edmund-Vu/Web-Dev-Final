@@ -1,4 +1,4 @@
-import Link from 'next/Link'
+import NextLink from 'next/Link'
 
 const Navbar = () => {
     return (
@@ -6,9 +6,9 @@ const Navbar = () => {
             <div className = "navbar">
                 <h1>KeyLabs</h1>
             </div>
-            <Link href="/"><a>Home</a></Link>
-            <Link href="/community"><a>Community</a></Link>
-            <Link href="/resources"><a>Resources</a></Link>
+            <NextLink href="/"><a>Home</a></NextLink>
+            <NextLink href="/community"><a>Community</a></NextLink>
+            <NextLink href="/resources"><a>Resources</a></NextLink>
         </nav>
     );
 }
