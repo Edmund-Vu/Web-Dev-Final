@@ -19,7 +19,7 @@ export default function VideoBlock() {
     return (
         <div className="gallery">
             {content.map((iframe) => (
-                <ContentCard title={iframe.title} url={iframe.url} />
+                <ContentCard key={iframe} title={iframe.title} url={iframe.url} />
             ))}
         </div>
     );
